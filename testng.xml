@@ -1,0 +1,12 @@
+<suite name="Sauce Demo end to end Test suite" verbose="1">
+    <test name="End to end Test" group-by-instances="true">
+    	<classes>
+		<class name="www.saucedemo.com.sofiui.Saucedemouitest" />
+		<methods>
+			<include name="endToEndTest" />
+		</methods>
+	</classes>
+	</test>
+</suite>
+
+    
